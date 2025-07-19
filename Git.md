@@ -77,7 +77,19 @@ git push -u origin main
 ```
 Si no conectas tu repositorio local con un remoto (GitHub/GitLab/Bitbucket): Guarda historial completo de cambios (git log); puedes crear ramas, hacer merges y revertir cambios; sigues teniendo control de versiones (pero solo local).
 
-
+El comando `git push -u origin main` hace dos cosas importantes:
+- Primer push: Sube tus commits a la rama main del repositorio remoto (origin).
+- Establece upstream: La opción `-u` (o `--set-upstream`) crea una asociación permanente entre:
+   - Tu rama local main
+   - La rama remota origin/main
+```bash
+git push  # En lugar de git push origin main
+git pull  # En lugar de git pull origin main
+```
+Una vez configurado el upstream git recordará que tu rama local `main` está vinculada a `origin/main`. Si quieres confirmar que tu rama local tiene upstream configurado:
+```bash
+git branch -vv
+```
 ## Seguimiento de Cambios
 Cómo registrar modificaciones en tu proyecto
 ```bash
