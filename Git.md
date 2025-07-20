@@ -108,6 +108,11 @@ git commit -m "Implementa función de login"
 
 # Corrige el último commit (modifica el mensaje o añade archivos olvidados)
 git commit --amend -m "Nuevo mensaje más descriptivo"
+
+# Eliminar un archivo específico
+git rm archivo.txt
+# Eliminar una carpeta recursivamente
+git rm -r carpeta/ 
 ```
 
 
