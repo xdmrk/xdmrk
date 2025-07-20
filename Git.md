@@ -3,18 +3,17 @@
 **Documentación de comandos esenciales y flujos de trabajo con explicaciones prácticas**
 
 ## Índice
-1. [Configuración Inicial](#configuración-básica) - Primeros pasos con Git
-2. [Gestión de Repositorios](#gestión-de-repositorios) - Iniciar y clonar proyectos
-3. [Seguimiento de Cambios](#seguimiento-de-cambios) - Add, Commit, Status
-4. [Trabajo con Ramas](#trabajo-con-ramas) - Branching y Merging
-5. [Repositorios Remotos](#repositorios-remotos) - Push, Pull, Fetch
-6. [Historial y Versiones](#historial-y-versiones) - Log, Diff, Checkout
-7. [Fusión de Proyectos](#fusión-de-proyectos) - Unir repositorios
-8. [Resolución de Problemas](#resolución-de-problemas) - Conflictos y errores comunes
-9. [Flujos Recomendados](#flujos-recomendados) - Buenas prácticas
-10. [Alias Útiles](#alias-útiles) - Atajos para productividad
-
-    [Diccionario de Términos Git](#Diccionario-de-Términos-Git)
+[Configuración Inicial](#configuración-básica) - Primeros pasos con Git
+[Gestión de Repositorios](#gestión-de-repositorios) - Iniciar y clonar proyectos
+[Seguimiento de Cambios](#seguimiento-de-cambios) - Add, Commit, Status
+[Trabajo con Ramas](#trabajo-con-ramas) - Branching y Merging
+[Repositorios Remotos](#repositorios-remotos) - Push, Pull, Fetch
+[Historial y Versiones](#historial-y-versiones) - Log, Diff, Checkout
+[Fusión de Proyectos](#fusión-de-proyectos) - Unir repositorios
+[Resolución de Problemas](#resolución-de-problemas) - Conflictos y errores comunes
+[Flujos Recomendados](#flujos-recomendados) - Buenas prácticas
+[Alias Útiles](#alias-útiles) - Atajos para productividad
+[Diccionario de Términos Git](#Diccionario-de-Términos-Git)
 
 
 ---
