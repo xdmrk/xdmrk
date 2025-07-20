@@ -14,6 +14,8 @@
 9. [Flujos Recomendados](#flujos-recomendados) - Buenas prácticas
 10. [Alias Útiles](#alias-útiles) - Atajos para productividad
 
+    [Diccionario de Términos Git](#Diccionario-de-Términos-Git)
+
 
 ---
 
@@ -290,6 +292,67 @@ node_modules/
 dist/
 *.log
 ```
+
+# Diccionario de Términos Git
+
+1. **Conceptos Básicos**
+   - **Repositorio (Repo)**: Carpeta donde Git rastrea los cambios (contiene un `.git`/ oculto).
+   - **Commit**: "Snapshot" (foto) de tus archivos en un momento específico (como un guardado con historia).
+   - **Staging Area (Índice)**: Zona intermedia donde preparas archivos antes de hacer commit.
+   - **Working Directory**: Carpeta local donde editas archivos.
+
+2. **Estados de Archivos**
+   - **Tracked**: Archivos que Git conoce (añadidos con `git add`).
+   - **Untracked**: Archivos nuevos que Git aún no monitorea.
+   - **Modified**: Archivos trackeados con cambios no guardados en commit.
+   - **Staged**: Archivos listos para commit (`git add`).
+
+3. **Ramas (Branches)**
+   - **Main/Master**: Rama principal del proyecto (antes llamada "master").
+   - **Feature Branch**: Rama temporal para desarrollar una funcionalidad.
+   - **HEAD**: Apuntador al commit o rama actual.
+   - **Upstream**: Rama remota vinculada a una rama local.
+
+4. **Comandos Clave**
+   - **`git clone`**: Copiar un repositorio remoto a tu máquina.
+   - **`git pull`**: Traer cambios del remoto y fusionarlos (`git fetch + git merge`).
+   - **`git push`**: Enviar commits locales al repositorio remoto.
+   - **`git merge`**: Fusionar una rama con otra.
+   - **`git rebase`**: Reorganizar commits (cambiar su base histórica).
+
+5. **Colaboración**
+   - **Origin**: Nombre por defecto del repositorio remoto (ej: GitHub).
+   - **Fork**: Copia personal de un repo ajeno (en GitHub/GitLab).
+   - **Pull Request (PR)**: Solicitud para fusionar cambios en un proyecto.
+   - **Conflictos**: Cuando Git no puede fusionar cambios automáticamente.
+
+6. **Historial y Cambios**
+   - **SHA-1**: Código único de 40 caracteres que identifica un commit (ej: `3a2b5c8...`).
+   - **Tag**: Etiqueta para marcar versiones importantes (ej: `v1.0.0`).
+   - **Diff**: Diferencia entre archivos o commits (`git diff`).
+
+7. **Comandos para Deshacer**
+   - **`git reset`**: Mueve HEAD a un commit anterior (¡cuidado! puede borrar historia).
+   - **`git revert`**: Crea un nuevo commit que deshace cambios previos (más seguro).
+   - **`git stash`**: Guarda cambios temporales sin hacer commit.
+
+8. **Archivos Especiales**
+   - **`.gitignore`**: Lista de archivos/carpetas que Git debe ignorar.
+   - **`.gitmodules`**: Configuración para submódulos (repos dentro de repos).
+
+9. **Flujos de Trabajo**
+    - **Git Flow**: Metodología con ramas `main`, `develop`, `feature-*`, etc.
+    - **Squash**: Combinar múltiples commits en uno solo (antes de hacer merge).
+
+10. **Términos Técnicos**
+    - **Blob**: Objeto Git que almacena contenido de archivos.
+    - **Tree**: Estructura que representa directorios y sus archivos.
+    - **Detached HEAD**: Cuando HEAD apunta a un commit (no a una rama).
+
+## Tips para Recordar
+- **Commits son inmutables**: No se borran, pero se pueden reorganizar.
+- **Git es local**: Todo el historial está en tu `.git/` (los remotos son copias).
+- **`origin` es una convención**: Puedes tener múltiples remotos (ej: `upstream` para forks).
 
 
 
