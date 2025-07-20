@@ -117,6 +117,22 @@ git rm archivo.txt
 git rm -r carpeta/ 
 ```
 
+Al eliminar un archivo que esta en submodulos de tu repositorio y `git rm archivo.txt` te dice que no coincide tendras que ser más especifico
+```bash
+# Navega a la raíz del repositorio
+cd ~/Desktop/Repositorio
+
+# Busca el archivo (opcional) esto te dara la ruta exacta para evitar errores de eliminación
+find . -name "archivo.txt"
+
+# Elimina con la ruta exacta
+git rm carpeta1/carpeta2/carpeta3/carpeta4/archivo.txt
+
+# Confirma los cambios
+git commit -m "Eliminar archivo.txt en profundidad"
+git push
+```
+
 
 ## Trabajo con Ramas
 Estrategias para organizar el desarrollo
