@@ -9,7 +9,7 @@
 4. [Trabajo con Ramas](#trabajo-con-ramas) - Branching y Merging
 5. [Repositorios Remotos](#repositorios-remotos) - Push, Pull, Fetch
 6. [Historial y Versiones](#historial-y-versiones) - Log, Diff, Checkout
- - [Revertir Cambios Locales y Volver al Estado de Git](#Revertir-Cambios-Locales-y-Volver-al-Estado-de-Git)
+	- [Revertir Cambios Locales y Volver al Estado de Git](#Revertir-Cambios-Locales-y-Volver-al-Estado-de-Git)
 7. [Fusión de Proyectos](#fusión-de-proyectos) - Unir repositorios
 8. [Resolución de Problemas](#resolución-de-problemas) - Conflictos y errores comunes
 9. [Flujos Recomendados](#flujos-recomendados) - Buenas prácticas.
