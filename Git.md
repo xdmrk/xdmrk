@@ -9,6 +9,7 @@
 4. [Trabajo con Ramas](#trabajo-con-ramas) - Branching y Merging
 5. [Repositorios Remotos](#repositorios-remotos) - Push, Pull, Fetch
 6. [Historial y Versiones](#historial-y-versiones) - Log, Diff, Checkout
+ - [Revertir Cambios Locales y Volver al Estado de Git](#Revertir-Cambios-Locales-y-Volver-al-Estado-de-Git)
 7. [Fusión de Proyectos](#fusión-de-proyectos) - Unir repositorios
 8. [Resolución de Problemas](#resolución-de-problemas) - Conflictos y errores comunes
 9. [Flujos Recomendados](#flujos-recomendados) - Buenas prácticas.
@@ -194,6 +195,24 @@ git checkout 3a5b7c9
 
 # Crea un tag para versiones importantes (v1.0, v2.1, etc.)
 git tag -a v1.2 -m "Versión estable con todas las features"
+```
+
+### Revertir Cambios Locales y Volver al Estado de Git
+```bash
+# Opc1: Descartar todos los cambios locales no confirmados (unstaged)
+git restore .
+# ó
+git checkout -- .
+
+# Opc2: Resetear completamente el repositorio local incluyendo cambios staged
+git reset --hard
+
+# Opc3: Sincronizar exactamente con el remoto
+git fetch origin
+git reset --hard origin/main  # o 'origin/master' o tu rama principal
+
+# Si solo quieres revertir cambios en archivos específicos
+git restore archivo1.txt archivo2.txt
 ```
 
 
