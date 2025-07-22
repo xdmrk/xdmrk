@@ -9,7 +9,7 @@
 4. [Trabajo con Ramas](#trabajo-con-ramas) - Branching y Merging
 5. [Repositorios Remotos](#repositorios-remotos) - Push, Pull, Fetch
 6. [Historial y Versiones](#historial-y-versiones) - Log, Diff, Checkout
-	- [Revertir Cambios Locales y Volver al Estado de Git](#Revertir-Cambios-Locales-y-Volver-al-Estado-de-Git)
+	- [Revertir Cambios Locales y Volver al Estado de Git](#Revertir-Cambios-Locales-y-Volver-al-Estado-de-Git) - Restore, Reset
 7. [Fusión de Proyectos](#fusión-de-proyectos) - Unir repositorios
 8. [Resolución de Problemas](#resolución-de-problemas) - Conflictos y errores comunes
 9. [Flujos Recomendados](#flujos-recomendados) - Buenas prácticas.
@@ -19,6 +19,13 @@
 
 
 ---
+## Bases
+Git siempre maneja tres versiones de tu código:
+- Tu copia local (main)
+- La copia remota (origin/main)
+- La versión fusionada resultante
+
+
 
 ## Configuración Básica
 Configuración inicial necesaria antes de usar Git
@@ -265,6 +272,33 @@ git fetch origin
 git merge --abort  # Cancela el merge conflictivo
 git mergetool      # Usa herramienta visual para resolver
 ```
+
+**Cómo guardar y salir del editor Vim durante un merge**
+Cuando hagas git pull y aparezca el editor Vim, verás algo como esto:
+```text
+Merge branch 'main' of https://github.com/tu-usuario/Exercises-Java
+# Please enter a commit message...
+~
+~ (líneas en blanco)
+```
+Para guardar y salir:
+- Presiona la tecla ESC (para asegurarte que estás en modo normal).
+- Escribe :wq (verás esto abajo a la izquierda).
+- Presiona Enter.
+
+**`Merge branch 'main' of`**: El mensaje indica que Git está sincronizando tu rama local con la rama remota homónima despues de un `pull`
+```bash
+# opc1: reaplica tus cambios locales sobre los cambios remotos en lugar de crear un commit de fusión
+git pull --rebase
+
+# opc2: Configurar pull, todos tus futuros git pull usarán rebase
+git config --global pull.rebase true
+
+# opc3: Usar fetch + merge explícito
+git fetch origin
+git merge origin/main
+```
+
 
 
 ## Flujos Recomendados
