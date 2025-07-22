@@ -12,6 +12,7 @@
 	- [Revertir Cambios Locales y Volver al Estado de Git](#Revertir-Cambios-Locales-y-Volver-al-Estado-de-Git) - Restore, Reset
 7. [Fusión de Proyectos](#fusión-de-proyectos) - Unir repositorios
 8. [Resolución de Problemas](#resolución-de-problemas) - Conflictos y errores comunes
+	- [Editor Vim durante un merge](#Cómo-guardar-y-salir-del-editor-Vim-durante-un-merge)
 9. [Flujos Recomendados](#flujos-recomendados) - Buenas prácticas.
 10. [Alias Útiles](#alias-útiles) - Atajos para productividad 
 
@@ -273,7 +274,7 @@ git merge --abort  # Cancela el merge conflictivo
 git mergetool      # Usa herramienta visual para resolver
 ```
 
-**Cómo guardar y salir del editor Vim durante un merge**
+### Cómo guardar y salir del editor Vim durante un merge
 Cuando hagas git pull y aparezca el editor Vim, verás algo como esto:
 ```text
 Merge branch 'main' of https://github.com/tu-usuario/Exercises-Java
