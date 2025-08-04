@@ -142,6 +142,18 @@ git commit -m "Eliminar archivo.txt en profundidad"
 git push
 ```
 
+**Renombrar:**
+```bash
+# Usa git mv para que Git entienda el cambio
+git mv ../Exercises-1/nombre.py ../Exercises-1/nombreNuevo.py
+
+# Si ya lo renombraste y te sale "Changes not staged for commit" y "Untracked files"
+# Git lo tomara como confirmacion de eliminación y agregación
+git add ../Exercises-1/nombre.py
+git add ../Exercises-1/nombreNuevo.py
+```
+[Errores](#fatal-bad-source)
+
 
 ## Trabajo con Ramas
 Estrategias para organizar el desarrollo
@@ -370,6 +382,7 @@ dist/
    - **Commit**: "Snapshot" (foto) de tus archivos en un momento específico (como un guardado con historia).
    - **Staging Area (Índice)**: Zona intermedia donde preparas archivos antes de hacer commit.
    - **Working Directory**: Carpeta local donde editas archivos.
+   - **Path**: (o ruta) es la dirección o ubicación de un archivo o directorio dentro del sistema de archivos.
 
 2. **Estados de Archivos**
    - **Tracked**: Archivos que Git conoce (añadidos con `git add`).
@@ -418,11 +431,44 @@ dist/
     - **Blob**: Objeto Git que almacena contenido de archivos.
     - **Tree**: Estructura que representa directorios y sus archivos.
     - **Detached HEAD**: Cuando HEAD apunta a un commit (no a una rama).
+   
+
+
 
 ## Tips para Recordar
 - **Commits son inmutables**: No se borran, pero se pueden reorganizar.
 - **Git es local**: Todo el historial está en tu `.git/` (los remotos son copias).
 - **`origin` es una convención**: Puedes tener múltiples remotos (ej: `upstream` para forks).
+
+
+# Errores
+## `fatal: bad source`
+Ocurre porque Git no puede encontrar el archivo de origen (example.py) para renombrarlo a exercise.py. Esto suele pasar porque:
+1. El archivo original ya no existe (lo borraste manualmente o lo moviste fuera del repositorio).
+2. La ruta es incorrecta (hay un error en el path que le estás pasando a `git mv`).
+3. El archivo no estaba en el staging area (si nunca hiciste `git add` antes).
+
+**Soluciones:**
+1. Si el archivo original fue borrado manualmente:
+   Git no puede renombrar algo que ya no existe. En este caso, debes:
+   ```bash
+   # Añadir manualmente
+   git add ../Exercises-1/exercise.py
+
+   # Registrar la eliminación de los antiguos
+   git rm ../Exercises-1/example.py
+
+   git commit -m "Reemplazo archivos por versiones renombradas"
+   ```
+2. Si la ruta está mal escrita:
+   ```bash
+   # Verifica que la ruta sea correcta (usando `ls` o explorador de archivos)
+   ls -la ../Exercises-1/
+
+   # Si hay errores en el path, corrige el comando `git mv`
+   git mv RUTA_CORRECTA/example.py RUTA_CORRECTA/exercise.py
+   ```
+3. Si prefieres evitar `git mv` puedes seguir la opcion 1.
 
 
 
