@@ -1,3 +1,5 @@
+<div style="background-color: #0D1117; color: white; padding: 20px; border-radius: 10px;">
+
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Manufacturing+Consent&size=100&color=FFFFFF&duration=500&center=false&vCenter=true&height=100&repeat=false&random=false&lines=Sobre+mí)](https://git.io/typing-svg)
 <!-- NOTA:
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Libertinus+Math&size=30&color=FFFFFF&duration=500&center=false&vCenter=true&width=1000&height=160&repeat=false&random=false&multiline=true&lines=🚀+Primeros+pasos+para+llegar+a+Senior;💻+Siempre+aprendiendo+y+reforzando+conocimientos;🌟+Ansioso+de+aprender+y+crecer+más+de+lo+que+me+creo+capaz)](https://git.io/typing-svg)
@@ -33,3 +35,5 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+</div>
