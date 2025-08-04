@@ -1,12 +1,26 @@
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Manufacturing+Consent&size=100&color=586069&stroke=FFFFFF&duration=500&shadow=true&center=false&vCenter=true&height=100&repeat=false&random=false&lines=Sobre+mí)](https://git.io/typing-svg)
+<div align="center">
+  <img src="https://github.com/BrunnerLivio/brunnerlivio/blob/master/images/welcome.png?raw=true" style="max-width: 100%;" alt="Welcome to my Github Profile" />
+  <br />
+  <br />
+  <img height="50" alt="My Name is Livio and I like Node.js" src="images/personal_note.svg" />
+  <br />
+  <br />
+
+</div>
+
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Manufacturing+Consent&size=100&color=586069&stroke=FFFFFF&duration=700&center=false&vCenter=true&height=100&repeat=false&random=false&lines=Sobre+mí)](https://git.io/typing-svg)
+
+
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Libertinus+Math&size=30&color=586069&duration=500&center=false&vCenter=true&width=1000&height=160&repeat=false&random=false&multiline=true&lines=🚀+Primeros+pasos+para+llegar+a+Senior;💻+Siempre+aprendiendo+y+reforzando+conocimientos;🌟+Ansioso+de+aprender+y+crecer+más+de+lo+que+me+creo+capaz)](https://git.io/typing-svg)
 
 <!--
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Manufacturing+Consent&size=100&color=FFFFFF&center=false&vCenter=true&height=100&duration=1&repeat=false&random=false&lines=Sobre+mí)](https://git.io/typing-svg)
+
+COLOR: 586069
 -->
 
-| [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Manufacturing+Consent&size=37&pause=1000&color=FFFFFF&center=true&vCenter=true&repeat=false&random=false&width=200&lines=Lenguajes)](https://git.io/typing-svg) | [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Manufacturing+Consent&size=37&pause=1000&color=FFFFFF&center=true&vCenter=true&repeat=false&random=false&width=200&lines=Frameworks)](https://git.io/typing-svg) | [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Manufacturing+Consent&size=37&pause=1000&color=FFFFFF&center=true&vCenter=true&repeat=false&random=false&width=150&lines=IDEs)](https://git.io/typing-svg) | [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Manufacturing+Consent&size=37&pause=1000&color=FFFFFF&center=true&vCenter=true&repeat=false&random=false&width=200&lines=Herramientas)](https://git.io/typing-svg) | [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Manufacturing+Consent&size=37&pause=1000&color=FFFFFF&center=true&vCenter=true&repeat=false&random=false&width=285&lines=Sistemas+Operativos)](https://git.io/typing-svg) |
+| [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Manufacturing+Consent&size=37&pause=1000&color=586069&center=true&vCenter=true&repeat=false&random=false&width=200&lines=Lenguajes)](https://git.io/typing-svg) | [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Manufacturing+Consent&size=37&pause=1000&color=586069&center=true&vCenter=true&repeat=false&random=false&width=200&lines=Frameworks)](https://git.io/typing-svg) | [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Manufacturing+Consent&size=37&pause=1000&color=586069&center=true&vCenter=true&repeat=false&random=false&width=150&lines=IDEs)](https://git.io/typing-svg) | [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Manufacturing+Consent&size=37&pause=1000&color=586069&center=true&vCenter=true&repeat=false&random=false&width=200&lines=Herramientas)](https://git.io/typing-svg) | [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Manufacturing+Consent&size=37&pause=1000&color=586069&center=true&vCenter=true&repeat=false&random=false&width=285&lines=Sistemas+Operativos)](https://git.io/typing-svg) |
 | ----- | ---- | ---- | ---- | ---- |
 | <div align="center"><a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=py,java,mysql" title="Python, Java, Sql"/></a></div> | <div align="center"><a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=django,flask" title="Django, Flask"/></a></div>| <div align="center"><a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=vscode" title="VS Code"/></a></div> | <div align="center"><a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=git,github" title="Git, GitHub"/></a></div> | <div align="center"><a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=windows" title="Windows"/></a></div> |
 
