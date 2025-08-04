@@ -1,6 +1,15 @@
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Manufacturing+Consent&size=100&color=FFFFFF&duration=500&center=false&vCenter=true&height=100&repeat=false&random=false&lines=Sobre+mí)](https://git.io/typing-svg)
-
+<!-- NOTA:
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Libertinus+Math&size=30&color=FFFFFF&duration=500&center=false&vCenter=true&width=1000&height=160&repeat=false&random=false&multiline=true&lines=🚀+Primeros+pasos+para+llegar+a+Senior;💻+Siempre+aprendiendo+y+reforzando+conocimientos;🌟+Ansioso+de+aprender+y+crecer+más+de+lo+que+me+creo+capaz)](https://git.io/typing-svg)
+-->
+
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Libertinus+Math&size=30&color=586069&duration=500&center=false&vCenter=true&width=1000&height=160&repeat=false&random=false&multiline=true&lines=🚀+Primeros+pasos+para+llegar+a+Senior;💻+Siempre+aprendiendo+y+reforzando+conocimientos;🌟+Ansioso+de+aprender+y+crecer+más+de+lo+que+me+creo+capaz)](https://git.io/typing-svg)
+
+<div style="color: var(--color-fg-default); background-color: var(--color-canvas-default); padding: 1em; border-radius: 5px;">
+  🚀 Primeros pasos para llegar a Senior
+  💻 Siempre aprendiendo y reforzando conocimientos
+  🌟 Ansioso de aprender y crecer más de lo que me creo capaz
+</div>
 
 <!--
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Manufacturing+Consent&size=100&color=FFFFFF&center=false&vCenter=true&height=100&duration=1&repeat=false&random=false&lines=Sobre+mí)](https://git.io/typing-svg)
