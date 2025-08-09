@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="Images/Dino.gif" style="max-width: 3000000%;" alt="cargando..." />
+  <img src="Images/Welcome.png" style="max-width: 3000000%;" alt="cargando..." />
   <br />
   <br />
 
