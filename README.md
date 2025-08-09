@@ -6,6 +6,19 @@
 
 </div>
 
+
+
+<!--
+<div align="center">
+  <img 
+    src="Images/Welcome.png" 
+    style="width: 100%; max-width: 100%; display: block; margin: 0 auto;" 
+    alt="cargando..." 
+  />
+</div>
+-->
+
+
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Manufacturing+Consent&size=100&color=586069&stroke=FFFFFF&duration=700&center=false&vCenter=true&height=100&repeat=false&random=false&lines=Sobre+mí)](https://git.io/typing-svg)
 
 
