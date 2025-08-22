@@ -1,3 +1,4 @@
+<!--
 <div align="center">
   <img src="Images/Welcome.png" style="max-width: 3000000%;" alt="cargando..." />
   <br />
@@ -5,6 +6,13 @@
 
 
 </div>
+-->
+
+
+
+
+
+
 
 
 
